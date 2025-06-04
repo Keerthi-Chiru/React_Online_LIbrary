@@ -10,7 +10,7 @@ import books from './utils/books.js'
 import Homepage from './components/Homepage.jsx'
 import BookDetail from './components/BookDetail.jsx'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([                   // React Routing
   {
     path: '/',
     element: <App />,

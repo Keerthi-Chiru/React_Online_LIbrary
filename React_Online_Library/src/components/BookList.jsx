@@ -10,7 +10,7 @@ export default function BookList({ books }) {
     return (
         
         <div className="book-list">
-            {booksFromStore.map((book) => (
+            {booksFromStore.map((book) => (          
                 <Book book={book} key={book.id} />
             ))}
         </div>

@@ -23,9 +23,9 @@ export default function BrowseBooks() {
         console.log(filter);
         console.log(searchTerm);
         console.log(booksFromStore);
-        setFilteredBooks(booksFromStore.filter((book) => {
+        setFilteredBooks(booksFromStore.filter((book) => {              
             if (searchTerm === '' && filter === '') {
-                return true; // No search term or filter, show all books
+                return true;   
             }
             const matchesbook = book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 book.author.toLowerCase().includes(searchTerm.toLowerCase()) 

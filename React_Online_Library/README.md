@@ -40,7 +40,7 @@ _Add Book Page_
 If you'd like to try it locally:
 
 ```bash
-git clone https://github.com/your-username/react-online-library.git
+git clone https://github.com/Keerthi-Chiru/react-online-library.git
 cd react-online-library
 npm install
 npm run dev

@@ -26,17 +26,17 @@
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    function add(e) {
+    function add(e) { 
         e.preventDefault();
         if (data.title === "" || data.author === "" || data.publisher === "" || data.published === "" || data.pages === 0 || data.description === "" || data.website === "" || data.category === "") {
-            alert("Please fill all the fields");
+            alert("Please fill all the fields");  // Check if all fields are filled
             return;
         }
         if (data.pages < 0) {
             alert("Number of pages cannot be negative");
             return;
         }
-        dispatch(addBook(data));
+        dispatch(addBook(data));        // dispatch the action to add the book to the store
         alert("Book added successfully");
 
         navigate('/browse');

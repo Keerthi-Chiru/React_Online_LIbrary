@@ -7,7 +7,7 @@ import './bookDetail.css';
 export default function BookDetail() {
     const param = useParams()
 
-    for (let i = 0; i < books.length; i++) {
+    for (let i = 0; i < books.length; i++) {     // Loop through the books array to find the book with the matching id
         if (books[i].id === param.id) {
             let book = books[i];
  

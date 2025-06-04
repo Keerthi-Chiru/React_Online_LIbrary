@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Book(book){
     return (
+        // Display each book's details
         <>
             <div className="book">
                 <img src={BookCover} alt="Book Cover" className="book-cover" width="150px" height="150px"/>
