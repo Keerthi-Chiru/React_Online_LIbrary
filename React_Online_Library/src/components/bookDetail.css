@@ -1,0 +1,47 @@
+.book-detail{
+    width: 500px;
+    height: 500px;
+    background-color: #CA7842;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column ;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
+    color: #F0F2BD;
+    font-weight: bolder;
+    margin: auto;
+    padding: 0px 15px;
+}
+.book-detail p{
+    font-size: 15px;
+    margin: 5px;
+}
+.book-detail:hover{
+    scale: 1.01;
+    transition: all 0.1s ease-in-out;
+}
+
+.book-detail-container{
+    display: flex; 
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button{
+    background-color: #CA7842;
+    color: #F0F2BD;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.back-button:hover{
+    background-color: #F0F2BD;
+    color: #CA7842;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}

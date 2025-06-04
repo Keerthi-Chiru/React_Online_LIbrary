@@ -1,0 +1,69 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 50px;
+}
+
+.input{
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    border: 2px solid #CA7842;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 10px;
+
+}
+
+.filter-buttons{
+    display: flex;
+    gap: 4px;
+}
+.button{
+    background-color: #CA7842;
+    color:  #F0F2BD;
+    box-shadow: black 0px 0px 1px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #F0F2BD;
+    color: #CA7842;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.button:focus{
+    background-color: #F0F2BD;
+    color: #CA7842;
+    border: black 1px solid;
+}
+
+.reset{
+    background-color: #CA7842;
+    color:  #F0F2BD;
+    box-shadow: black 0px 0px 4px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+
+}
+
+.reset:hover{
+    background-color: #F0F2BD;
+    color: #CA7842;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.book-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}

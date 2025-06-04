@@ -1,0 +1,79 @@
+.add-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #F0F2BD ;
+    background-color: #CA7842;
+    width: 1000px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 10px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-self: center;
+    justify-items: center;
+
+}
+.input{
+    border: #CA7842 2px solid;
+    background-color: #F0F2BD;
+    color: #CA7842;
+    font-weight: bolder;
+    box-shadow: black 0px 0px 2px;
+}
+.button{
+    grid-column: span 2;
+    width: 100px;
+    justify-self: center;
+    background-color: #F0F2BD;
+    color: #CA7842;
+    box-shadow: black 0px 0px 2px ;
+    border: #CA7842 1px solid;
+}
+
+.button:hover{
+    scale: 1.01;
+    transition: all 0.1s ease-in-out;
+}
+.radio-buttons{
+    margin: 0;
+    display: flex;
+    gap:10px;
+    font: inherit;
+    align-items: center;
+
+}
+.radio-buttons input[type="radio"] {
+
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #F0F2BD;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: #F0F2BD;
+  position: absolute;
+}
+
+
+input[type="radio"]:checked::before {
+  transform: scale(1.1);
+}
